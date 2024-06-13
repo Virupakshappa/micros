@@ -1,85 +1,20 @@
-plaintext
-Copy code
-# Directories #
-[Bb]in/
-[Oo]bj/
-[Ll]ogs/
-[Tt]est[Rr]esults/
-
-# Files #
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-*.userprefs
-*.nupkg
-*.log
-*.vspscc
-*.vssscc
-*.[Cc]ache
-*.bak
-*.ncrunch*
-*.crunch*.local.xml
-*.dll.config
-*.nuget.props
-*.nuget.targets
-*.pubxml
-*.pubxml.user
-*.tmp_proj
-*ReSharper*
-*resharper*
-*TeamCity*
-*.DotSettings.user
-*StyleCop.*
-*.dbmdl
-*.jfm
-*.pfx
-*.rptproj
-*_i.c
-*_p.c
-*_h.h
-*.tlog
-*.vsmdk
-*.pidb
-*.svclog
-*.scc
-
-# Visual Studio .vs folder #
+# Ignore Visual Studio files
 .vs/
+*.suo
+*.user
+*.userprefs
+*.ReSharper
+_ReSharper.*/
 
-# Rider .idea folder #
-.idea/
+# Ignore build output
+/bin/
+/obj/
 
-# MSTest test Results #
-TestResults/
+# Ignore packages
+*.nupkg
+/packages/
 
-# .NET Core #
-project.lock.json
-project.fragment.lock.json
-artifacts/
-
-# ASP.NET Scaffolding #
-ScaffoldingReadMe.txt
-
-# Microsoft Azure Web App Publish settings #
-*.PublishSettings
-
-# NuGet Packages Directory #
-packages/
-
-# Tools & scripts #
-*.ps1
-*.psd1
-*.psm1
-*.sh
-
-# Runtimes, SDKs, and Visual Studio folders #
-runtimes/
-sdk/
-
-# Node.js Tools for Visual Studio #
-.ntvs_analysis.dat
-node_modules/
-
-# Tye
-.tye/
+# Ignore misc
+*.log
+*.DS_Store
+Thumbs.db
