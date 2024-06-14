@@ -1,4 +1,4 @@
-# .NET Microservices for E-Commerce
+# .NET Microservices for One-Piece Manga Store
 
 This project is a comprehensive e-commerce platform comprising multiple microservices that handle different aspects of the application. It features role-based authentication, a manga cart, and content management capabilities, aimed at providing a robust system for both administrators and customers.
 
